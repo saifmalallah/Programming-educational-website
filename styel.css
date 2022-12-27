@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    font-family:  Helvetica;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+header{
+    height: 100px;
+    background-color: #17a2b8;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.nav-log{
+    color: white;
+    font-weight: bold;
+}
+.nav-pag ul{
+    display: inline-flex;
+}
+.nav-pag li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+.nav-pag a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn button{
+    color: white;
+    padding: 10px 15px;
+    background-color: #17a2b8;
+    border: white solid 2px;
+}
+
+.nav-name {
+    color: #fff;
+
+}
+
+.nav-btn :hover{
+    background-color: white;
+    color: #000;
+    /* background-color: #79b6fc; */
+}
+
+
+
+main{
+    height: 800px;
+    background-color: #17a2b8;
+    display: flex;
+    color: white;
+}
+
+.main-titel{
+    width: 500px;
+    /* background-color: tomato; */
+    margin-left: 150px;
+    margin-top: 300px;
+}
+.main-titel h1{
+    font-size: 50px;
+    font-weight:bolder;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.main-imag{
+    /* background-color: turquoise; */
+    margin-top: 200px;
+}
+
+
+
+.form-login{
+    background-color:#fdfdfd;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-div{
+    width: 50%;
+    padding: 10px;
+    color: #17a2b8;
+}
+
+.login-tit{
+    text-align: center;
+    margin: 50px 0px;
+}
+.in-login{
+    display: grid;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.in-login input{
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    margin: 5px 0px 5px 0px;
+    outline: 2px;
+}
+
+.in-login label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-login{
+    margin-top: 20px;
+    /* background-color: tomato; */
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-login button{
+    padding: 5px 10px;
+    background-color: #17a2b8;
+    color: white;
+    border: transparent solid 4px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.btn-login :hover button{
+    background-color: white;
+    color: #000;
+    outline: #17a2b8 solid 2px;
+}
+
+
+.sign-div{
+    width: 50%;
+    background-color: #00A8C8;
+    background-image: url(images/shapes.png);
+    background-size:contain ;
+    padding: 10px;
+}
+.sign-tit{
+    text-align: center;
+    margin: 40% 0px 20px 0px;
+    color: white;
+}
+.sign-tit h1,h4{
+    margin: 30px 0px;
+}
+
+.btn-sign{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-sign button{
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    color: #013841;
+    border: transparent solid 4px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-sign :hover button{
+    background-color: #17a2b8;
+    color: white;
+    outline: #fff solid 2px;
+}
+
+.main2{
+    height: 500px;
+    /* background-color: brown; */
+
+}
+
+.main2-titel{
+    text-align: center;
+    margin: 50px 0px;
+    /* background-color: burlywood; */
+}
+.main2-titel p{
+    width: 50%;
+    margin: 10px auto;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.747);
+    padding: 10px;
+}
+.main2-box{
+    /* background-color: burlywood; */
+    display: flex;
+    column-gap: 60px;
+    width: 80%;
+    margin: 0px auto;
+}
+.main2-box-icon  {
+    margin: 5px auto;
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;}
+.main2-box-icon img{
+  width: 30px;
+  height: 30px;
+  
+}
+.main2-box h2{
+    text-align: center;
+    margin: 15px 0;
+}
+.main2-box p{
+    text-align: center;
+    margin: 15px auto;
+    /* padding: 10px; */
+    line-height: 30px;
+    width: 80%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.main2-box :hover .main2-box-icon{
+    background-color: #a9eaf7;
+}
+
+.form-sign{
+    background-color:#fdfdfd;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.main-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* background-color: rosybrown; */
+}
+
+.main-control table{
+    text-align: center;
+    width: 80%;
+    min-width: 80%;
+    border-collapse: collapse;
+    border-radius: 4px 4px 0px 0px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.main-control thead tr{
+    background-color: #00A8C8;
+    color: #fff;
+}
+
+.main-control th,td{
+    padding: 10px ;
+
+}
+.main-control tbody tr {
+    border-bottom:1px solid #dddddd ;
+}
+
+.main-control tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+/* .use-tab{
+    width: 80%;
+    margin: 4px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00A8C8;
+    padding: 20px;
+    color: #fff;
+    border-radius: 4px;
+} */
+.us-edit button ,.us-delet button{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: #fff solid 1px;
+    font-weight: bold;
+    background-color: #00A8C8;
+    color: #fff;
+}
+
+
+.us-edit :hover{
+    background-color: #00333d;
+}
+.us-delet :hover{
+    background-color: red;
+}
+
+
+.form-ed{
+    background-color:#fdfdfd;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ed-div{
+    width: 80%;
+    padding: 10px;
+    color: #17a2b8;
+}
+
+
+footer{
+    background-color: #000410;
+    height: 200px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success{
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(0, 199, 99);
+}
+
+.error{
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    background-color:#dc3545;
+}
